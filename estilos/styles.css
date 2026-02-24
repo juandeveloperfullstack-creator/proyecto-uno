@@ -50,3 +50,36 @@ h1 {
     align-items: center;
     gap: 20px;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: black;
+    width: 100%;
+    border-bottom: 2px solid #FF5733;
+}
+
+.navegacion {
+    display: flex;
+    gap: 150px;
+}
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navegacion a:hover {
+    color: #4ade80;           
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
