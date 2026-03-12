@@ -1,38 +1,36 @@
 h1 {
-    color: rgb(69, 223, 159);
+    text-align: center;
+    color: rgb(204, 124, 18);
     margin: 0;
     font-family: sans-serif;
+    padding: px;
 }
 
-.parrafo01 {
+p{
     color: rgb(255, 255, 255);
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.contenedor-image01 {
+.contenedor-image img {
+    max-width: 800px;
+    width: 100%;      
+    height: auto;     
+    border-radius: 10px; 
+    border: 3px solid #FF5722; 
+}
+
+.contenedor-image {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin: 100px;
+    margin: 20px auto;
+
     background-color: #2c2e33;
     border: 5px solid #FF5733;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(255, 87, 51, 0.5);
-    max-width: 400px;
-}
-
-.contenedor-image02 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    margin: 100px;
-    border: 5px solid #FF5733;
-    background-color: #2c2e33;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(225, 87, 51, 0.5);
     max-width: 400px;
 }
 
@@ -56,7 +54,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: rgb(251, 59, 59);
+    background-color: rgb(138, 18, 18);
     width: 100%;
     border-bottom: 2px solid #FF5733;
 }
@@ -87,4 +85,30 @@ h1 {
 mark{
     background-color: rgb(232, 25, 25);
 }
+
+.contenedor-arcade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+
+    background-color: #2c2e33;
+    border: 5px solid #FF5733;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 87, 51, 0.5);
+    max-width: 400px;
+
+}
+
+.contenedor-arcade img {
+    max-width: 400px; 
+    width: 100%;      
+    height: auto;     
+    border-radius: 10px; 
+    border: 3px solid #FF5722; 
+}
+
 
