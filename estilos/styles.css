@@ -38,16 +38,16 @@ p{
     max-width: 400px;
 }
 
-.logo {
+.portada {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #171717;
+    border: 3px solid #171717;
 
 }
 
-.contenedor-logo {
+.contenedor-portada {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -177,3 +177,96 @@ color:#ffffff;
 .volver-inicio:hover {
     color: #35c46c;
 }
+
+ul {
+    list-style-position: inside;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #202020;
+    border-left: 5px solid #FF5722;
+    border-radius: 8px;
+    text-align: left;
+}
+
+ul li {
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul li::marker{
+    color: #FF5722;
+    font-weight: bold;
+    font-size: 1.rem;
+}
+
+.contenedor-rpg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+
+    background-color: #2c2e33;
+    border: 5px solid #37b93d;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 87, 51, 0.5);
+    max-width: 400px;
+
+}
+
+.contenedor-rpg img {
+    max-width: 400px; 
+    width: 100%;      
+    height: auto;     
+    border-radius: 10px; 
+    border: 3px solid #17e210;
+    border: 7px solid #146dc0; 
+}
+
+.tabla-rpg{
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #1a1a1a;
+    border: 2px solid #FF5722;
+}
+
+.tabla-rpg th {
+    background-color: #FF5722;
+    color: white;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.tabla-rpg td {
+    padding: 12px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.tabla-rpg tr:hover {
+    background-color: #333;
+}
+
+caption {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FF5722;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+tfoot td {
+    background-color: #242323;
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #4ade80;
+    text-align: center;
+    padding: 10px
+}
+
