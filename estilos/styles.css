@@ -270,3 +270,79 @@ tfoot td {
     padding: 10px
 }
 
+.contenedor-principal{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+section.historia-aventura{
+    flex: 2;
+    min-width: 300px;
+}
+
+aside.datoscuriosos{
+    flex: 1;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px dashed #FF5722;
+    min-width: 200px;
+}
+
+article.destacado-juego{
+    background-color: #1a1a1a;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.tabla-zelda {
+    border: 2px solid #4ade80; 
+}
+
+.tabla-zelda th {
+    background-color: #2d5a27; 
+    color: #e0e0e0;
+}
+
+.tabla-zelda caption {
+    color: #4ade80;
+}
+
+.tabla-zelda {
+    margin-top: 50px; 
+    box-shadow: 0 0 15px rgba(74, 222, 128, 0.2); 
+}
+
+
+.tabla-zelda td:first-child {
+    color: #4ade80; 
+    font-weight: bold;
+}
+
+.body-accion {
+    background: radial-gradient(circle, #1a0000 0%, #000000 100%);
+    color: #e0e0e0;
+}
+
+.body-accion h1, .body-accion h2 {
+    color: #ab6214;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+    text-transform: uppercase;
+}
+
+
+.arsenal-kratos {
+    background-color: #111;
+    border: 2px solid #cc0000;
+    padding: 20px;
+    border-radius: 0 15px 15px 0; /* Bordes redondeados solo a la derecha */
+    box-shadow: -5px 0 15px rgba(204, 0, 0, 0.3);
+}
+
+.arsenal-kratos h3 {
+    color: #ff9900; /* Color fuego para los subtítulos del aside */
+    border-bottom: 1px solid #cc0000;
+}
