@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/styles.css">
+</head>
+<body style="background-color: black; color: white;">
+    <main class="contenedor-principal">
+    <section class="seccion-arcade">
+        <h2>Registro de Jugador</h2>
+        <br><br>
+
+        <form action="procesar.php" method="POST">
+            
+            <h3>Datos del Héroe</h3>
+            <label>Nombre de Usuario:</label><br>
+            <input type="text" name="usuario" placeholder="Tu apodo gamer"><br><hr>
+            <br><br>
+
+            <label>Fecha de Nacimiento:</label><br>
+            <input type="date" name="fecha"><br><hr>
+            <br><br>
+
+            <h3>Contacto</h3>
+            <label>Correo Electrónico:</label><br>
+            <input type="email" name="correo" id="email"><br><hr>
+            <br><br>
+
+            <h3>Preferencias</h3>
+            <p>Elige tu bando:</p>
+            <input type="radio" name="bando" value="alianza"> Alianza
+            <input type="radio" name="bando" value="horda"> Horda
+            <br><br><hr>
+
+            <p>Géneros favoritos:</p>
+            <input type="checkbox" name="genero" value="rpg"> RPG
+            <input type="checkbox" name="genero" value="accion"> Acción
+            <input type="checkbox" name="genero" value="arcade"> Arcade
+            <br><hr><br>
+
+            <label>Selecciona tu Clase:</label><br><br>
+            <select name="clase">
+                <option value="guerrero">Guerrero</option>
+                <option value="mago">Mago</option>
+                <option value="picaro">Pícaro</option>
+            </select>
+            <br><hr><br>
+
+            <label>Cuéntanos tu historia:</label><br>
+            <textarea name="historia" rows="5" cols="40" placeholder="Escribe aquí tus hazañas..."></textarea>
+            <br><br>
+
+            <button type="submit" class="enlace-game">¡Unirse a la Batalla!</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>

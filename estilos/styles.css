@@ -6,14 +6,12 @@ h1 {
 }
 
 p{
-    text-align: center;
     line-height: 1.6;
     font-size: 1.1rem;
     margin-bottom: 20px;
     color: rgb(255, 255, 255);
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
 }
 
 .contenedor-image img {
@@ -345,4 +343,17 @@ article.destacado-juego{
 .arsenal-kratos h3 {
     color: #ff9900; /* Color fuego para los subtítulos del aside */
     border-bottom: 1px solid #cc0000;
+}
+
+textarea {
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid #FF5722;
+    padding: 10px;
+}
+
+/* Para que los textos no queden pegados */
+label {
+    font-weight: bold;
+    color: #FF5722;
 }
